@@ -18,7 +18,7 @@ var highscore = [
 
 //Array of Objects
 
-var arr = [
+var question = [
   {
     question: "What color of uniform does Arrow wear in his series ?",
     answer: "Green",
@@ -35,11 +35,11 @@ var arr = [
 
 //Welcome function
 function welcome() {
-  var userNamwe = readlineSync.question("What is Your Name Hooman! ?\n");
+  var userName = readlineSync.question("What is Your Name Hooman! ?\n");
 
   console.log(
     "Welcome " +
-      userNamwe +
+      userName +
       " Lets see if you know something about the ArrwoVerse series in DC, Please feel free to Google The answers if you are unfamiliar with this TV series, Consider it as a fun open-book Quiz"
   );
 }
